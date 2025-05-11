@@ -47,7 +47,7 @@ const Quiz = () => {
   if (!quizStarted) {
     return (
       <div className="p-4 text-center">
-        <button className="btn btn-primary d-inline-block mx-auto" onClick={handleStartQuiz}>
+        <button data-cy= 'startQuiz' className="btn btn-primary d-inline-block mx-auto" onClick={handleStartQuiz}>
           Start Quiz
         </button>
       </div>
@@ -56,9 +56,9 @@ const Quiz = () => {
 
   if (quizCompleted) {
     return (
-      <div className="card p-4 text-center">
+      <div data-cy="feedback" className="card p-4 text-center">
         <h2>Quiz Completed</h2>
-        <div className="alert alert-success">
+        <div data-cy='score' className="alert alert-success">
           Your score: {score}/{questions.length}
         </div>
         <button className="btn btn-primary d-inline-block mx-auto" onClick={handleStartQuiz}>
@@ -82,11 +82,11 @@ const Quiz = () => {
 
   return (
     <div className='card p-4'>
-      <h2>{currentQuestion.question}</h2>
-      <div className="mt-3">
+      <h2 data-cy="question" >{currentQuestion.question}</h2>
+      <div data-cy="answers" className="mt-3">
       {currentQuestion.answers.map((answer, index) => (
-        <div key={index} className="d-flex align-items-center mb-2">
-          <button className="btn btn-primary" onClick={() => handleAnswerClick(answer.isCorrect)}>{index + 1}</button>
+        <div  key={index} className="d-flex align-items-center mb-2">
+          <button data-cy='answer' className="btn btn-primary" onClick={() => handleAnswerClick(answer.isCorrect)}>{index + 1}</button>
           <div className="alert alert-secondary mb-0 ms-2 flex-grow-1">{answer.text}</div>
         </div>
       ))}

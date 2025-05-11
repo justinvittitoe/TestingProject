@@ -2,7 +2,7 @@ import Quiz from './components/Quiz';
 
 function App() {
   return (
-    <div className="App">
+    <div data-cy="quiz" className="App">
       <Quiz />
     </div>
   );

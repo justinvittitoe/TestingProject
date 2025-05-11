@@ -1,0 +1,261 @@
+[{
+    "_id": "681d74b53f1b6b4bff562c23",
+    "question": "What does the // operator do in Python?",
+    "answers": [
+        {
+            "text": "Performs integer division",
+            "isCorrect": true,
+            "_id": "681d74b53f1b6b4bff562c24"
+        },
+        {
+            "text": "Performs floating-point division",
+            "isCorrect": false,
+            "_id": "681d74b53f1b6b4bff562c25"
+        },
+        {
+            "text": "Calculates the power of a number",
+            "isCorrect": false,
+            "_id": "681d74b53f1b6b4bff562c26"
+        },
+        {
+            "text": "Performs a logical AND operation",
+            "isCorrect": false,
+            "_id": "681d74b53f1b6b4bff562c27"
+        }
+    ]
+},
+{
+    "_id": "681d74b53f1b6b4bff562c37",
+    "question": "What is the output of 'hello' + 'world'?",
+    "answers": [
+        {
+            "text": "hello world",
+            "isCorrect": false,
+            "_id": "681d74b53f1b6b4bff562c38"
+        },
+        {
+            "text": "helloworld",
+            "isCorrect": true,
+            "_id": "681d74b53f1b6b4bff562c39"
+        },
+        {
+            "text": "hello+world",
+            "isCorrect": false,
+            "_id": "681d74b53f1b6b4bff562c3a"
+        },
+        {
+            "text": "hello world!",
+            "isCorrect": false,
+            "_id": "681d74b53f1b6b4bff562c3b"
+        }
+    ]
+},
+{
+    "_id": "681d74b53f1b6b4bff562c55",
+    "question": "What is the output of print(3 == 3.0)?",
+    "answers": [
+        {
+            "text": "False",
+            "isCorrect": false,
+            "_id": "681d74b53f1b6b4bff562c56"
+        },
+        {
+            "text": "True",
+            "isCorrect": true,
+            "_id": "681d74b53f1b6b4bff562c57"
+        },
+        {
+            "text": "3",
+            "isCorrect": false,
+            "_id": "681d74b53f1b6b4bff562c58"
+        },
+        {
+            "text": "3.0",
+            "isCorrect": false,
+            "_id": "681d74b53f1b6b4bff562c59"
+        }
+    ]
+},
+{
+    "_id": "681d74b53f1b6b4bff562c32",
+    "question": "Which of the following statements is used to handle exceptions in Python?",
+    "answers": [
+        {
+            "text": "catch",
+            "isCorrect": false,
+            "_id": "681d74b53f1b6b4bff562c33"
+        },
+        {
+            "text": "except",
+            "isCorrect": true,
+            "_id": "681d74b53f1b6b4bff562c34"
+        },
+        {
+            "text": "handle",
+            "isCorrect": false,
+            "_id": "681d74b53f1b6b4bff562c35"
+        },
+        {
+            "text": "try",
+            "isCorrect": false,
+            "_id": "681d74b53f1b6b4bff562c36"
+        }
+    ]
+},
+{
+    "_id": "681d74b43f1b6b4bff562c05",
+    "question": "What is the output of print(2 ** 3)?",
+    "answers": [
+        {
+            "text": "6",
+            "isCorrect": false,
+            "_id": "681d74b53f1b6b4bff562c06"
+        },
+        {
+            "text": "8",
+            "isCorrect": true,
+            "_id": "681d74b53f1b6b4bff562c07"
+        },
+        {
+            "text": "9",
+            "isCorrect": false,
+            "_id": "681d74b53f1b6b4bff562c08"
+        },
+        {
+            "text": "12",
+            "isCorrect": false,
+            "_id": "681d74b53f1b6b4bff562c09"
+        }
+    ]
+},
+{
+    "_id": "681d74b53f1b6b4bff562c5a",
+    "question": "What is the keyword to define a class in Python?",
+    "answers": [
+        {
+            "text": "function",
+            "isCorrect": false,
+            "_id": "681d74b53f1b6b4bff562c5b"
+        },
+        {
+            "text": "def",
+            "isCorrect": false,
+            "_id": "681d74b53f1b6b4bff562c5c"
+        },
+        {
+            "text": "class",
+            "isCorrect": true,
+            "_id": "681d74b53f1b6b4bff562c5d"
+        },
+        {
+            "text": "module",
+            "isCorrect": false,
+            "_id": "681d74b53f1b6b4bff562c5e"
+        }
+    ]
+},
+{
+    "_id": "681d74b53f1b6b4bff562c4b",
+    "question": "What does the method append() do in a list?",
+    "answers": [
+        {
+            "text": "Adds a new element at the end of the list",
+            "isCorrect": true,
+            "_id": "681d74b53f1b6b4bff562c4c"
+        },
+        {
+            "text": "Removes the last element of the list",
+            "isCorrect": false,
+            "_id": "681d74b53f1b6b4bff562c4d"
+        },
+        {
+            "text": "Sorts the list in ascending order",
+            "isCorrect": false,
+            "_id": "681d74b53f1b6b4bff562c4e"
+        },
+        {
+            "text": "Removes all elements from the list",
+            "isCorrect": false,
+            "_id": "681d74b53f1b6b4bff562c4f"
+        }
+    ]
+},
+{
+    "_id": "681d74b53f1b6b4bff562c2d",
+    "question": "What is the output of type(3.14)?",
+    "answers": [
+        {
+            "text": "<class 'int'>",
+            "isCorrect": false,
+            "_id": "681d74b53f1b6b4bff562c2e"
+        },
+        {
+            "text": "<class 'float'>",
+            "isCorrect": true,
+            "_id": "681d74b53f1b6b4bff562c2f"
+        },
+        {
+            "text": "<class 'complex'>",
+            "isCorrect": false,
+            "_id": "681d74b53f1b6b4bff562c30"
+        },
+        {
+            "text": "<class 'decimal'>",
+            "isCorrect": false,
+            "_id": "681d74b53f1b6b4bff562c31"
+        }
+    ]
+},
+{
+    "_id": "681d74b53f1b6b4bff562c1e",
+    "question": "Which method is used to remove whitespace from the beginning and end of a string?",
+    "answers": [
+        {
+            "text": "strip()",
+            "isCorrect": true,
+            "_id": "681d74b53f1b6b4bff562c1f"
+        },
+        {
+            "text": "trim()",
+            "isCorrect": false,
+            "_id": "681d74b53f1b6b4bff562c20"
+        },
+        {
+            "text": "clean()",
+            "isCorrect": false,
+            "_id": "681d74b53f1b6b4bff562c21"
+        },
+        {
+            "text": "remove()",
+            "isCorrect": false,
+            "_id": "681d74b53f1b6b4bff562c22"
+        }
+    ]
+},
+{
+    "_id": "681d74b53f1b6b4bff562c50",
+    "question": "How do you create a tuple in Python?",
+    "answers": [
+        {
+            "text": "[]",
+            "isCorrect": false,
+            "_id": "681d74b53f1b6b4bff562c51"
+        },
+        {
+            "text": "{}",
+            "isCorrect": false,
+            "_id": "681d74b53f1b6b4bff562c52"
+        },
+        {
+            "text": "()",
+            "isCorrect": true,
+            "_id": "681d74b53f1b6b4bff562c53"
+        },
+        {
+            "text": "tuple[]",
+            "isCorrect": false,
+            "_id": "681d74b53f1b6b4bff562c54"
+        }
+    ]
+}
+]
